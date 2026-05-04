@@ -7,8 +7,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"], // src 폴더를 사용하는 경우
-      "/vue-album/*": ["./src/*"] // src 폴더를 사용하는 경우
+      "@/*": ["./src/*"], // src 폴더를 사용하는 경우      
     }
   }
 }
