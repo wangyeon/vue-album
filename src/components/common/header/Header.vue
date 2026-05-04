@@ -23,7 +23,7 @@ export default defineComponent({
     <header class="header">
         <div class="header__child">
             <Avatar class="rounded-sm">
-                <AvatarImage src="/assets/images/logo.png" alt="profile" />
+                <AvatarImage src="/vue-album/assets/images/logo.png" alt="profile" />
                 <AvatarFallback>CN</AvatarFallback>
             </Avatar>
             <h3 class="scroll-m-20 text-2xl font-semibold tracking-tight">Do it!</h3>            
@@ -36,7 +36,7 @@ export default defineComponent({
             <Separator orientation="vertical" class="h-10" />
             <div class="flex items-center gap-2">
                 <Avatar>
-                    <AvatarImage src="/assets/images/profile.svg" alt="profile" />
+                    <AvatarImage src="/vue-album/assets/images/profile.svg" alt="profile" />
                     <AvatarFallback>CN</AvatarFallback>
                 </Avatar>
                 <small class="text-sm font-medium leading-none">Kinglee | mirr2336@gmail.com</small>
