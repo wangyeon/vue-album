@@ -10,10 +10,10 @@
         <div class="page__wallpaper">
             <img src="/assets/images/wallpaper.png" alt="" class="page__wallpaper__img" />
             <div class="page__wallpaper__search-box">
-                <h1 class="scroll-m-20 text-4xl text-white font-extrabold tracking-tight lg:text-4xl">프로젝트 01: 오픈 API를 활용한 이미지 검색 사이트 만들기</h1>
+                <h1 class="scroll-m-20 text-4xl text-white font-extrabold tracking-tight lg:text-4xl">Splash 의 오픈 API를 활용한 이미지 검색 사이트</h1>
                 <div class="flex flex-col w-full mt-5 mb-2">
                     <h4 class="scroll-m-20 text-md text-white font-semibold tracking-tight">인터넷 시각자료 출처입니다.</h4>
-                    <h4 class="scroll-m-20 text-md text-white font-semibold tracking-tight">모든 지역에 있는 크리에이터들의 지원을 받습니다.</h4>
+                    <h4 class="scroll-m-20 text-md text-white font-semibold tracking-tight">명칭을 입력하면 관련 사진들을 볼 수 있습니다 ( 한글검색가능 )</h4>
                 </div>
                 <SearchBar @update:modelValue="changeSearchValue" @keydown.enter="handleSearch" />
             </div>

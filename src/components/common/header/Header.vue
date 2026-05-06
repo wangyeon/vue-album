@@ -26,7 +26,7 @@ export default defineComponent({
                 <AvatarImage src="/vue-album/assets/images/logo.png" alt="profile" />
                 <AvatarFallback>CN</AvatarFallback>
             </Avatar>
-            <h3 class="scroll-m-20 text-2xl font-semibold tracking-tight">Do it!</h3>            
+            <h3 class="scroll-m-20 text-2xl font-semibold tracking-tight">Vue + Typescript </h3>            
         </div>
         <div class="header__child">
             <Button variant="secondary">

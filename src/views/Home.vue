@@ -1,5 +1,4 @@
-<template>
-    <h1> this is content vue !!!</h1>
+<template>    
     <div class="layout">
         <ImageCard v-for="image in images" :key="image.id" :image="image" />
     </div>
